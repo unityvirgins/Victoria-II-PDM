@@ -3,14 +3,14 @@
 
 factory_template = {
 	efficiency = {
-		cement = 6 #if no coal, work at 75% efficiency  total cost £50
+		cement = 6 #if no coal, work at 75% efficiency  total cost ï¿½50
 }
 	
 	owner =
 	{
 		poptype = capitalists 
 		effect = input
-		effect_multiplier = -1
+		effect_multiplier = -1.50
 	}
 	
 	employees = {		
@@ -22,7 +22,7 @@ factory_template = {
 		{ 
 			poptype = clerks 
 			effect = output
-			effect_multiplier = 1.25
+			effect_multiplier = 1.30
 			amount = 0.2
 		}
 	}
@@ -32,14 +32,14 @@ factory_template = {
 
 cheap_factory_template = {
 	efficiency = {
-		cement = 3 #if no coal, work at 75% efficiency  total cost £24
+		cement = 3 #if no coal, work at 75% efficiency  total cost ï¿½24
 }
 	
 	owner =
 	{
 		poptype = capitalists 
 		effect = input
-		effect_multiplier = -1
+		effect_multiplier = -1.5
 	}
 	
 	employees = {		
@@ -61,14 +61,14 @@ cheap_factory_template = {
 
 cement_factory_template = {
 	efficiency = {
-		machine_parts = 1  #if no coal, work at 75% efficiency  total cost £20
+		machine_parts = 1  #if no coal, work at 75% efficiency  total cost ï¿½20
 }
 	
 	owner =
 	{
 		poptype = capitalists 
 		effect = input
-		effect_multiplier = -1
+		effect_multiplier = -1.5
 	}
 	
 	employees = {		
@@ -80,7 +80,7 @@ cement_factory_template = {
 		{ 
 			poptype = clerks 
 			effect = output
-			effect_multiplier = 1.25
+			effect_multiplier = 1.30
 			amount = 0.2
 		}
 	}
@@ -90,14 +90,14 @@ cement_factory_template = {
 
 bank_template = {
 	efficiency = {
-		paper = 10 #  total cost £56
+		paper = 10 #  total cost ï¿½56
 }
 	
 	owner =
 	{
 		poptype = capitalists 
 		effect = input
-		effect_multiplier = -1.5
+		effect_multiplier = -2.5
 	}
 	
 	employees = {		
@@ -113,7 +113,7 @@ bank_template = {
 
 modern_factory_template = {
 	efficiency = {
-		cement = 4 #if no cement, work at 75% efficiency    total cost £98
+		cement = 4 #if no cement, work at 75% efficiency    total cost ï¿½98
 		electric_power = 8
 		machine_parts = 1
 		financial_services = 1
@@ -123,7 +123,7 @@ modern_factory_template = {
 	{
 		poptype = capitalists 
 		effect = input
-		effect_multiplier = -1.5
+		effect_multiplier = -2.5
 	}
 	
 	employees = {		
@@ -163,6 +163,7 @@ aeroplane_factory = {
 				has_building = machine_parts_factory 
 				has_building = iron_machine_parts_factory 
 				has_building = advanced_machine_parts_factory 
+				has_building = steel_machine_parts_factory
 			}
 		}
 		value = 0.2
@@ -232,7 +233,8 @@ artillery_factory = {
 			OR = {
 				has_building = machine_parts_factory 
 				has_building = iron_machine_parts_factory 
-				has_building = advanced_machine_parts_factory 
+				has_building = advanced_machine_parts_factory
+				has_building = steel_machine_parts_factory 
 			}
 		}
 		value = 0.2
@@ -255,7 +257,8 @@ automobile_factory = {
 			OR = {
 				has_building = machine_parts_factory 
 				has_building = iron_machine_parts_factory 
-				has_building = advanced_machine_parts_factory 
+				has_building = advanced_machine_parts_factory
+				has_building = steel_machine_parts_factory  
 			}
 		}
 		value = 0.2
@@ -298,6 +301,7 @@ barrel_factory = {
 				has_building = machine_parts_factory 
 				has_building = iron_machine_parts_factory 
 				has_building = advanced_machine_parts_factory 
+				has_building = steel_machine_parts_factory
 			}
 		}
 		value = 0.2
@@ -631,6 +635,7 @@ steamer_shipyard = {
 				has_building = machine_parts_factory 
 				has_building = advanced_machine_parts_factory 
 				has_building = iron_machine_parts_factory
+				has_building = steel_machine_parts_factory
 			}
 		}
 		value = 0.2
@@ -1496,18 +1501,25 @@ RGO_template_farmers = {
 	{
 		poptype = aristocrats 
 		effect = output
+		effect_multiplier = 1.25
 	}
 		
 	employees = {
 		{ 
 			poptype = farmers 
 			effect = throughput
-			amount = 0.9
+			amount = 0.8
+		}
+		{ 
+			poptype = foreman 
+			effect = throughput
+			effect_multiplier = 1.30
+			amount = 0.1
 		}
 		{ 
 			poptype = slaves 
 			effect = output
-			effect_multiplier = 1.25
+			effect_multiplier = 1.30
 			amount = 0.1
 		}
 	}
@@ -1521,13 +1533,20 @@ RGO_template_labourers = {
 	{
 		poptype = aristocrats 
 		effect = output
+		effect_multiplier = 1.25
 	}
 		
 	employees = {
 		{ 
 			poptype = labourers 
 			effect = throughput
-			amount = 0.9
+			amount = 0.8
+		}
+		{ 
+			poptype = foreman 
+			effect = throughput
+			effect_multiplier = 1.30
+			amount = 0.1
 		}
 		{ 
 			poptype = slaves 

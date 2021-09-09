@@ -1,7 +1,38 @@
 strata = middle
-research_points = 4
-research_optimum = 0.08
-factory = yes
+sprite = 9
+unemployment = yes
+color = { 102, 102, 0}
+
+life_needs = {
+	canned_food = 6
+}
+everyday_needs = {
+	steel = 100
+	bronze = 100
+	cement = 100
+	spices = 100
+	print = 100
+	sugar = 100
+	coffee = 100
+	wine = 100
+	pharmaceuticals = 100
+	luxury_clothes = 100
+	luxury_furniture = 100
+	cigars = 100
+	boots = 100
+	radio = 100
+	electric_power = 100
+	shares = 100
+	fuel = 100
+	telephones = 100
+	automobiles = 100
+}
+luxury_needs = {
+	opium  = 50
+	aeroplanes = 20
+	steamer_convoy = 5
+	financial_services = 50
+}
 
 rebel =
 {
@@ -16,45 +47,6 @@ rebel =
 	irregular = 0
 }
 
-sprite = 5
-unemployment = yes
-can_work_factory = yes
-color = { 240 240 240 }
-
-life_needs = {
-	canned_food = 6
-}
-everyday_needs = {
-	steel = 10
-	bronze = 10
-	sugar = 15
-	pharmaceuticals = 10
-	print = 20
-	tea = 15
-	liquor = 10
-	regular_clothes = 25
-	furniture = 15
-	cigarettes = 10
-	horses = 2
-	shoes = 10
-	electric_power = 20
-
-}
-luxury_needs = {
-	boots = 20
-	spices = 15
-	opium  = 15
-	coffee = 15
-	automobiles = 10
-	telephones = 10
-	wine = 15
-	luxury_clothes = 10
-	cigars = 20
-	fuel = 20
-	radio = 20
-	shares = 20
-	aeroplanes = 0.5
-}
 
 country_migration_target =
 {
@@ -550,59 +542,6 @@ promote_to =
 			}
 	}
 	
-	
-	
-	foreman = 
-	{
-		factor = 0.01
-		modifier = {
-			factor = 2
-			state_scope = { is_slave = yes }
-		}
-		group = {
-			modifier = {
-				factor = 2
-				literacy = 0.60
-			}
-			modifier = {
-				factor = 2
-				literacy = 0.70
-			}
-			modifier = {
-				factor = 2
-				literacy = 0.80
-				}
-			modifier = {
-				factor = 2
-				literacy = 0.90
-				}
-			modifier = {
-				factor = 2
-				literacy = 1
-			}
-		}
-		modifier = {
-			factor = -20
-			unemployment_by_type = { type = foreman value = 0.25  }
-		}
-		modifier = {
-			factor = -50
-			location = {
-					not = { work_available = {
-						worker = foreman
-				}
-				}
-			}
-		}
-		modifier = {
-			factor = 10
-			location = {
-					work_available = {
-						worker = foreman
-				}
-			}
-		}
-	}
 	
 	farmers = { #and labourers
 		factor = 0.01
