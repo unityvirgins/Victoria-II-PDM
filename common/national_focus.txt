@@ -49,13 +49,6 @@ promotion_focus =
 		}
 	}
 
-	promote_foreman =
-	{
-		foreman = 0.15 #10% more likeley to become this type
-		icon = 9
-		outliner_show_as_percent = yes
-	}
-
 	promote_craftsmen =
 	{
 		craftsmen = 0.15 #10% more likeley to become this type

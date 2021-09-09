@@ -1508,18 +1508,13 @@ RGO_template_farmers = {
 		{ 
 			poptype = farmers 
 			effect = throughput
-			amount = 0.8
-		}
-		{ 
-			poptype = foreman 
-			effect = throughput
-			effect_multiplier = 1.30
-			amount = 0.1
+			amount = 0.9
+			effect_multiplier = 1.5
 		}
 		{ 
 			poptype = slaves 
 			effect = output
-			effect_multiplier = 1.30
+			effect_multiplier = 2.50
 			amount = 0.1
 		}
 	}
@@ -1540,18 +1535,13 @@ RGO_template_labourers = {
 		{ 
 			poptype = labourers 
 			effect = throughput
-			amount = 0.8
-		}
-		{ 
-			poptype = foreman 
-			effect = throughput
-			effect_multiplier = 1.30
-			amount = 0.1
+			amount = 0.9
+			effect_multiplier = 1.5
 		}
 		{ 
 			poptype = slaves 
 			effect = output
-			effect_multiplier = 1.25
+			effect_multiplier = 2.50
 			amount = 0.1
 		}
 	}

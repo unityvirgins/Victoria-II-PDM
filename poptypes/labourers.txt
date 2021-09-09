@@ -846,57 +846,7 @@ promote_to = {
 		}
 	}
 	
-	foreman = 
-	{
-		factor = 0.01
-		modifier = {
-			factor = 2
-			state_scope = { is_slave = yes }
-		}
-		group = {
-			modifier = {
-				factor = 2
-				literacy = 0.60
-			}
-			modifier = {
-				factor = 2
-				literacy = 0.70
-			}
-			modifier = {
-				factor = 2
-				literacy = 0.80
-				}
-			modifier = {
-				factor = 2
-				literacy = 0.90
-				}
-			modifier = {
-				factor = 2
-				literacy = 1
-			}
-		}
-		modifier = {
-			factor = -20
-			unemployment_by_type = { type = foreman value = 0.25  }
-		}
-		modifier = {
-			factor = -50
-			location = {
-					not = { work_available = {
-						worker = foreman
-				}
-				}
-			}
-		}
-		modifier = {
-			factor = 10
-			location = {
-					work_available = {
-						worker = foreman
-				}
-			}
-		}
-	}
+	 
 	
 		artisans =
 	{
