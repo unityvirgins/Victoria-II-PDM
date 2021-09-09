@@ -49,6 +49,13 @@ promotion_focus =
 		}
 	}
 
+	promote_foreman =
+	{
+		foreman = 0.15 #10% more likeley to become this type
+		icon = 9
+		outliner_show_as_percent = yes
+	}
+
 	promote_craftsmen =
 	{
 		craftsmen = 0.15 #10% more likeley to become this type
@@ -312,12 +319,20 @@ immigration_colonization_focus =
 {	
 	immigration =
 	{
-		immigrant_attract = 1 #increases attactiveness to immigrants by 100 %
-		global_immigrant_attract = 0.2
+		immigrant_attract = 10 #increases attactiveness to immigrants by 100 %
+		global_immigrant_attract = 0.5
 		icon = 35
 		limit = { 
 			NOT = { continent = europe }
-			NOT = { continent = asia }
+			# NOT = { continent = asia }
+			civilized = yes
+		}
+	}
+	immigration_push =
+	{
+		immigrant_push = 10
+		icon = 32
+		limit = { 
 			civilized = yes
 		}
 	}
