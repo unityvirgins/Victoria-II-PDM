@@ -117,8 +117,8 @@ economy = {
 	MAX_FACTORY_MONEY_SAVE = 5000,	-- how much money is stored maximum in a factory.
 	SMALL_DEBT_LIMIT = 5000,
 	FACTORY_UPGRADE_EMPLOYEE_FACTOR = 0.95, -- determines how close to the employee limit we need to be before "upgrade all" will upgrade/expand a given factory (1 = 100%).
-	RGO_SUPPLY_DEMAND_FACTOR_HIRE_HI = 0.2,	-- how fast pops are Hired when there is a high demand
-	RGO_SUPPLY_DEMAND_FACTOR_HIRE_LO = 0.02,	-- how fast pops are Hired when there is a medium demand
+	RGO_SUPPLY_DEMAND_FACTOR_HIRE_HI = 0.4,	-- how fast pops are Hired when there is a high demand
+	RGO_SUPPLY_DEMAND_FACTOR_HIRE_LO = 0.04,	-- how fast pops are Hired when there is a medium demand
 	RGO_SUPPLY_DEMAND_FACTOR_FIRE = 0.2,		-- how fast pops are Fired when there is a low demand
 	EMPLOYMENT_HIRE_LOWEST = 0.01,				-- we Hire pops no slower then x% of total required per day
 	EMPLOYMENT_FIRE_LOWEST = 0.01,				-- we Fire pops no slower then x% of total required per day
@@ -621,17 +621,17 @@ pops = {
 	LITERACY_CHANGE_SPEED = 0.02,
 
 
-	ASSIMILATION_SCALE = 0.02,
-	CONVERSION_SCALE = 0.02,
-	IMMIGRATION_SCALE = 0.003,
+	ASSIMILATION_SCALE = 0.12,
+	CONVERSION_SCALE = 0.04,
+	IMMIGRATION_SCALE = 0.015,
 
-	PROMOTION_SCALE = 0.0025,
+PROMOTION_SCALE = 0.0225,
 	PROMOTION_ASSIMILATION_CHANCE = 0,
 	LUXURY_THRESHOLD = 500,
 	BASE_GOODS_DEMAND = 1,
-	BASE_POPGROWTH = 0.0001,
+	BASE_POPGROWTH = 0.0004,
 	MIN_LIFE_RATING_FOR_GROWTH = 30,
-	LIFE_RATING_GROWTH_BONUS = 0.0001,
+	LIFE_RATING_GROWTH_BONUS = 0.0002,
 	LIFE_NEED_STARVATION_LIMIT = 0.5,
 
 	MIL_LACK_EVERYDAY_NEED = 0.05,
@@ -658,7 +658,7 @@ pops = {
 	
 	NATIONAL_FOCUS_DIVIDER = 100000.0,
 	
-	POP_SAVINGS = 0.15,
+	POP_SAVINGS = 0.10,
 	
 	STATE_CREATION_ADMIN_LIMIT = 0.01,
 	MIL_TO_JOIN_REBEL = 7, -- Rebels over this will join a faction
