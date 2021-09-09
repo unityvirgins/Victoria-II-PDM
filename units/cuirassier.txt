@@ -32,7 +32,7 @@ cuirassier = {
 	
 	supply_consumption = 1
 	supply_cost = {
-		ammunition = 1
+		ammunition = 10
 		horses = 1
 	}
 	

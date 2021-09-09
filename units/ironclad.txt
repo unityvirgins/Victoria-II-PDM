@@ -26,8 +26,8 @@ ironclad = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		steamer_convoy = 0.5
-		explosives = 1
+		steamer_convoy = 1
+		explosives = 4
 		coal = 2
 	}
 	

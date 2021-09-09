@@ -24,11 +24,11 @@ guard = {
 	
 	supply_consumption = 1
 	supply_cost = {
-		small_arms = 0.2
-		ammunition = 1
-		radio = 0.1
-		telephones = 0.1
-		automobiles = 0.25
+		small_arms = 2
+		ammunition = 25
+		radio = 0.2
+		telephones = 0.2
+		automobiles = 0.40
 		fuel = 0.25
 	}
 	
