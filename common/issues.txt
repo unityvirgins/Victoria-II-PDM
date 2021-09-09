@@ -442,23 +442,23 @@ social_reforms = {
 		no_minimum_wage = {
 		}
 		trinket_wage = {
-			minimum_wage = 0.10
+			minimum_wage = 0.20
 			global_immigrant_attract = 0.05
 			administrative_multiplier = 1
 		}
 		low_minimum_wage = {
-			minimum_wage = 0.20
+			minimum_wage = 0.40
 			global_immigrant_attract = 0.1
 			administrative_multiplier = 2
 		}
 		acceptable_minimum_wage = {
-			minimum_wage = 0.30
+			minimum_wage = 0.60
 			global_immigrant_attract = 0.15
 			global_pop_consciousness_modifier = -0.01
 			administrative_multiplier = 3
 		}
 		good_minimum_wage = {
-			minimum_wage = 0.40
+			minimum_wage = 0.80
 			global_immigrant_attract = 0.2
 			global_pop_consciousness_modifier = -0.02
 			administrative_multiplier = 4
@@ -471,18 +471,21 @@ social_reforms = {
 		}
 		fourteen_hours = {
 			factory_throughput = -0.05
+			poor_everyday_needs = 0.05
 			global_immigrant_attract = 0.05
 			administrative_multiplier = 1
 			global_pop_militancy_modifier = -0.01
 		}
 		twelve_hours = {
 			factory_throughput = -0.10
+			poor_everyday_needs = 0.10
 			global_immigrant_attract = 0.1
 			administrative_multiplier = 2
 			global_pop_militancy_modifier = -0.02
 		}
 		ten_hours = {
 			factory_throughput = -0.15
+			poor_everyday_needs = 0.15
 			global_immigrant_attract = 0.15
 			administrative_multiplier = 3
 			global_pop_consciousness_modifier = -0.01
@@ -490,6 +493,7 @@ social_reforms = {
 		}
 		eight_hours = {
 			factory_throughput = -0.20
+			poor_everyday_needs = 0.20
 			global_immigrant_attract = 0.2
 			administrative_multiplier = 4
 			global_pop_consciousness_modifier = -0.02
@@ -556,20 +560,20 @@ social_reforms = {
 		no_pensions = {
 		}
 		trinket_pensions = {
-			pension_level	= 0.25
+			pension_level	= 0.5
 			global_immigrant_attract = 0.05
 		}
 		low_pensions = {
-			pension_level	= 0.5
+			pension_level	= 1
 			global_immigrant_attract = 0.1
 		}
 		acceptable_pensions = {
-			pension_level	= 0.75
+			pension_level	= 2
 			global_pop_consciousness_modifier = -0.01
 			global_immigrant_attract = 0.15
 		}
 		good_pensions = {
-			pension_level	= 1
+			pension_level	= 4
 			global_pop_consciousness_modifier = -0.02
 			global_immigrant_attract = 0.2
 		}
