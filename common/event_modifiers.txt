@@ -172,13 +172,13 @@ colonial_mismanagement = {
 }
 
 colonial_recruitment = {
-	immigrant_attract = 1		#100%
-	life_rating = 1
+	immigrant_attract = 10		#100%
+	life_rating = 4
 	icon = 9
 }
 
 baby_boom = {
-	population_growth = 0.005
+	population_growth = 0.020
 	icon = 19
 }
 
