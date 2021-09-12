@@ -24,7 +24,7 @@ tank = {
 	
 	supply_consumption = 1
 	supply_cost = {
-		barrels = 2
+		barrels = 4
 		fuel = 1
 	}
 	

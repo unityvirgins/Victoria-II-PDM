@@ -24,7 +24,7 @@ submarine = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		steamer_convoy = 0.2
+		steamer_convoy = 0.4
 		gunpowder = 1
 		coal = 0.5
 	}

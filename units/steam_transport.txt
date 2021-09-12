@@ -24,7 +24,7 @@ steam_transport = {
 	
 	supply_consumption = 1
 	supply_cost = {
-		steamer_convoy = 0.2
+		steamer_convoy = 0.4
 		coal = 1
 	}
 	
