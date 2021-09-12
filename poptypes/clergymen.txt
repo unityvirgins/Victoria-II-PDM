@@ -35,7 +35,7 @@ luxury_needs_income = {
 
 
 life_needs = {
-	canned_food = 6
+	canned_food = 12
 }
 everyday_needs = {
 	steel = 10
@@ -67,6 +67,7 @@ luxury_needs = {
 	radio = 20
 	shares = 20
 	aeroplanes = 0.5
+	small_arms = 0.1
 }
 
 country_migration_target =

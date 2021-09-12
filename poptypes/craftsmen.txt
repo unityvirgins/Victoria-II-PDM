@@ -48,6 +48,7 @@ luxury_needs = {
 	fuel = 10
 	radio = 10
 	electric_power = 15
+	small_arms = 1
 }
 
 

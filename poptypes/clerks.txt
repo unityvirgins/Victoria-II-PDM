@@ -22,7 +22,7 @@ can_work_factory = yes
 color = { 240 240 240 }
 
 life_needs = {
-	canned_food = 6
+	canned_food = 12
 }
 everyday_needs = {
 	steel = 10
@@ -54,6 +54,8 @@ luxury_needs = {
 	radio = 20
 	shares = 20
 	aeroplanes = 0.5
+	clipper_convoy = 1
+	small_arms = 4
 }
 
 country_migration_target =

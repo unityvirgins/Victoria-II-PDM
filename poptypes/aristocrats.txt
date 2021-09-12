@@ -16,37 +16,39 @@ rebel =
 }
 
 life_needs = {
-	canned_food = 6
+	canned_food = 24
 }
 everyday_needs = {
-	horses = 10	
+	horses = 20	
 	bronze = 10
-	steel = 10
+	steel = 20
 	sugar = 25
-	spices = 25
-	cement = 25
-	coffee = 25
+	spices = 30
+	cement = 40
+	coffee = 30
 	tea = 25
-	glass = 5
-	wine = 25
+	glass = 15
+	wine = 50
 	pharmaceuticals = 25
-	luxury_clothes = 10
-	luxury_furniture = 10
+	luxury_clothes = 20
+	luxury_furniture = 15
 	cigars = 25
 	boots = 25
-	electric_power = 25
+	electric_power = 100
 	shares = 25
-	print = 10
+	print = 25
 }
 luxury_needs = {
+	small_arms = 10
 	opium  = 30
-	automobiles = 50
+	automobiles = 80
 	telephones = 50
 	radio = 50
 	fuel = 50
 	aeroplanes = 20
 	steamer_convoy = 5
-	financial_services = 10
+	financial_services = 20
+	clipper_convoy = 10
 }
 country_migration_target =
 {

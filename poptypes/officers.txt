@@ -32,7 +32,7 @@ everyday_needs_income = {
 }
 
 life_needs = {
-	canned_food = 6
+	canned_food = 12
 }
 everyday_needs = {
 	bronze = 10
@@ -48,6 +48,7 @@ everyday_needs = {
 	cigarettes = 10
 	shoes = 10
 	electric_power = 20
+	small_arms = 25
 
 }
 luxury_needs = {
@@ -66,6 +67,7 @@ luxury_needs = {
 	shares = 20
 	aeroplanes = 0.1
 	barrels = 0.1
+	clipper_convoy = 1
 }
 
 

@@ -49,6 +49,7 @@ everyday_needs = {
 	cigarettes = 3
 	shoes = 5
 	print = 3
+	
 }
 luxury_needs = {
 	boots = 10
@@ -62,6 +63,7 @@ luxury_needs = {
 	fuel = 10
 	radio = 10
 	electric_power = 15
+	small_arms = 10
 }
 
 

@@ -41,7 +41,7 @@ luxury_needs_income =
 }
 
 life_needs = {
-	canned_food = 6
+	canned_food = 12
 }
 everyday_needs = {
 	bronze = 10
@@ -74,6 +74,7 @@ luxury_needs = {
 	radio = 10
 	shares = 20
 	aeroplanes = 0.1
+	clipper_convoy = 0.25
 }
 
 
