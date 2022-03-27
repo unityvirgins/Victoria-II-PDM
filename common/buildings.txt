@@ -716,11 +716,11 @@ Petrolium-based_powerplant = {
 fort = {      
 	type = fort
 
-	cost = 100000 # 0
+	cost = 0 # 0
 	goods_cost = 
 	{
-		cement = 10000
-		artillery = 100
+		cement = 20000
+		artillery = 200
 	}
 	time = 1080 
 	visibility = yes
@@ -733,12 +733,12 @@ fort = {
 naval_base = {    
 	type = naval_base
   
-	cost = 1000000 # 0
+	cost = 0 # 0
 	goods_cost = 
 	{
-		cement = 50000
-		steel = 10000
-		machine_parts = 1000
+		cement = 100000
+		steel = 50000
+		machine_parts = 5000
 	}
 	time = 1080
 	naval_capacity = 20
@@ -752,18 +752,19 @@ naval_base = {
 	colonial_range = 50
 	local_ship_build = -0.15
 	one_per_state = yes
+	infrastructure = 0.08
 
 }
        
 railroad = {   
 	type = infrastructure
     
-	cost = 100000 # 0
+	cost = 0 # 0
 	goods_cost = 
 	{
-		steel = 500
-		cement = 1000
-		machine_parts = 150
+		steel = 1000
+		cement = 10000
+		machine_parts = 500
 	}
 	time = 1080
 	visibility = yes
