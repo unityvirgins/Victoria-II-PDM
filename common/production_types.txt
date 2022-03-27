@@ -1501,7 +1501,7 @@ RGO_template_farmers = {
 	{
 		poptype = aristocrats 
 		effect = output
-		effect_multiplier = 1.25
+		effect_multiplier = 2
 	}
 		
 	employees = {
@@ -1528,7 +1528,7 @@ RGO_template_labourers = {
 	{
 		poptype = aristocrats 
 		effect = output
-		effect_multiplier = 1.25
+		effect_multiplier = 2
 	}
 		
 	employees = {

@@ -1,7 +1,7 @@
 defines = {
 
 start_date = '1836.1.1',
-end_date = '1935.12.31',
+end_date = '1999.12.31',
 
 country = {
 	YEARS_OF_NATIONALISM 	= 10,   -- Years of Nationalism
@@ -26,7 +26,7 @@ country = {
 	CAMPAIGN_DURATION = 6,	-- a campaign lasts these amount of months
 	COLONIAL_RANK = 16, -- Minimum rank a nation must have to send colonists
 	COLONY_TO_STATE_PRESTIGE_GAIN = 2, -- Prestige gain when turning colony to state
-	COLONIAL_LIFERATING = 35,
+	COLONIAL_LIFERATING = 30,
 	BASE_GREATPOWER_DAILY_INFLUENCE = 0.05, -- Influence value which is distributed each day
 	AI_SUPPORT_REFORM = 0.025, -- At least this many % needs to support a reform for the AI to take it
 	BASE_MONTHLY_DIPLOPOINTS = 0.3, -- Base value gain for diplomatic actions each month
@@ -90,8 +90,8 @@ country = {
 	COLONIZATION_INFLUENCE_TEMPERATURE_PER_DAY = 0.08,
 	COLONIZATION_INFLUENCE_TEMPERATURE_PER_LEVEL = 0.005,
 	PARTY_LOYALTY_HIT_ON_WAR_LOSS = 0.5, -- Drops the ruling party loyalty if war is lost.
-	RESEARCH_POINTS_ON_CONQUER_MULT = 60, -- multiplier to RP got by conquering as unciv when got enacted military reforms
-	MAX_RESEARCH_POINTS = 25000, -- max RP you can store for uncivs
+	RESEARCH_POINTS_ON_CONQUER_MULT = 100, -- multiplier to RP got by conquering as unciv when got enacted military reforms
+	MAX_RESEARCH_POINTS = 50000, -- max RP you can store for uncivs
 },
 
 economy = {
@@ -99,7 +99,7 @@ economy = {
 	LOAN_BASE_INTEREST			= 0.02,
 	BANKRUPTCY_EXTERNAL_LOAN_YEARS	= 5,
 	BANKRUPTCY_FACTOR = 0.02,
-	SHADOWY_FINANCIERS_MAX_LOAN_AMOUNT = 15000,
+	SHADOWY_FINANCIERS_MAX_LOAN_AMOUNT = 150000,
 	MAX_LOAN_CAP_FROM_BANKS = 150, -- can loan max % of country tax base from single country
 	GUNBOAT_LOW_TAX_CAP = 0.0,
 	GUNBOAT_HIGH_TAX_CAP = 1.0,
@@ -618,18 +618,18 @@ diplomacy = {
 pops = {
 	BASE_CLERGY_FOR_LITERACY = 0.005, 
 	MAX_CLERGY_FOR_LITERACY = 0.02, 
-	LITERACY_CHANGE_SPEED = 0.02,
+	LITERACY_CHANGE_SPEED = 0.0225,
 
 
-	ASSIMILATION_SCALE = 0.12,
+	ASSIMILATION_SCALE = 0.2,
 	CONVERSION_SCALE = 0.04,
-	IMMIGRATION_SCALE = 0.015,
+	IMMIGRATION_SCALE = 0.100,
 
-PROMOTION_SCALE = 0.0225,
-	PROMOTION_ASSIMILATION_CHANCE = 0,
+	PROMOTION_SCALE = 0.03,
+	PROMOTION_ASSIMILATION_CHANCE = 0.1,
 	LUXURY_THRESHOLD = 500,
 	BASE_GOODS_DEMAND = 1,
-	BASE_POPGROWTH = 0.0004,
+	BASE_POPGROWTH = 0.0006,
 	MIN_LIFE_RATING_FOR_GROWTH = 30,
 	LIFE_RATING_GROWTH_BONUS = 0.0002,
 	LIFE_NEED_STARVATION_LIMIT = 0.5,

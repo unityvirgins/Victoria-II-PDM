@@ -2,28 +2,28 @@ promotion_focus =
 {
 	promote_aristocrats =
 	{
-		aristocrats = 0.15 #10% more likeley to become artisans
+		aristocrats = 0.40 #10% more likeley to become artisans
 		icon = 2
 		outliner_show_as_percent = yes
 	}
 
 	promote_artisans =
 	{
-		artisans = 0.15 #10% more likeley to become this type
+		artisans = 0.40 #10% more likeley to become this type
 		icon = 3
 		outliner_show_as_percent = yes
 	}
 
 	promote_bureaucrats =
 	{
-		bureaucrats = 0.15 #10% more likeley to become this type
+		bureaucrats = 0.40 #10% more likeley to become this type
 		icon = 4
 		outliner_show_as_percent = yes
 	}
 
 	promote_capitalists =
 	{
-		capitalists = 0.15 #10% more likeley to become this type
+		capitalists = 0.40 #10% more likeley to become this type
 		icon = 5
 		outliner_show_as_percent = yes
 		limit = { 
@@ -34,14 +34,14 @@ promotion_focus =
 	
 	promote_clergymen =
 	{
-		clergymen = 0.15 #10% more likeley to become this type
+		clergymen = 0.40 #10% more likeley to become this type
 		icon = 6
 		outliner_show_as_percent = yes
 	}
 
 	promote_clerks =
 	{
-		clerks = 0.15 #10% more likeley to become this type
+		clerks = 0.40 #10% more likeley to become this type
 		icon = 7
 		outliner_show_as_percent = yes
 		limit = { 
@@ -51,35 +51,37 @@ promotion_focus =
 
 	promote_craftsmen =
 	{
-		craftsmen = 0.15 #10% more likeley to become this type
+		craftsmen = 0.40 #10% more likeley to become this type
 		icon = 8
 		outliner_show_as_percent = yes
 	}
 
 	promote_farmers =
 	{
-		farmers = 0.15 #10% more likeley to become this type
+		farmers = 0.50 #10% more likeley to become this type
+		labourers = 0.50 #10% more likeley to become this type
 		outliner_show_as_percent = yes
 		icon = 9
 	}
 	
 	promote_labourers =
 	{
-		labourers = 0.15 #10% more likeley to become this type
+		labourers = 0.40 #10% more likeley to become this type
+		farmers = 0.40 #10% more likeley to become this type
 		outliner_show_as_percent = yes
 		icon = 10
 	}
 
 	promote_officers =
 	{
-		officers = 0.15 #10% more likeley to become this type
+		officers = 0.40 #10% more likeley to become this type
 		icon = 11
 		outliner_show_as_percent = yes
 	}
 
 	promote_soldiers =
 	{
-		soldiers = 0.15 #10% more likeley to become this type
+		soldiers = 0.40 #10% more likeley to become this type
 		icon = 12
 		outliner_show_as_percent = yes
 	}
@@ -312,19 +314,21 @@ immigration_colonization_focus =
 {	
 	immigration =
 	{
-		immigrant_attract = 10 #increases attactiveness to immigrants by 100 %
+		immigrant_attract = 10 #increases attactiveness to immigrants by 1000 %
+		immigrant_push = -100
 		global_immigrant_attract = 0.5
 		icon = 35
 		limit = { 
-			NOT = { continent = europe }
+			# NOT = { continent = europe }
 			# NOT = { continent = asia }
 			civilized = yes
 		}
 	}
 	immigration_push =
 	{
+		immigrant_attract = -100
 		immigrant_push = 10
-		icon = 32
+		icon = 35
 		limit = { 
 			civilized = yes
 		}
@@ -364,49 +368,49 @@ party_loyalty_focus =
 	fascist_focus =
 	{
 		ideology = fascist
-		loyalty_value = 0.001 # By that much pops will be more loyal
+		loyalty_value = 0.008 # By that much pops will be more loyal
 		icon = 36
 	}
 	
 	reactionary_focus =
 	{
 		ideology = reactionary
-		loyalty_value = 0.001 # By that much pops will be more loyal
+		loyalty_value = 0.008 # By that much pops will be more loyal
 		icon = 37
 	}
 	
 	conservative_focus =
 	{
 		ideology = conservative
-		loyalty_value = 0.001 # By that much pops will be more loyal
+		loyalty_value = 0.008 # By that much pops will be more loyal
 		icon = 38
 	}
 	
 	socialist_focus =
 	{
 		ideology = socialist
-		loyalty_value = 0.001 # By that much pops will be more loyal
+		loyalty_value = 0.008 # By that much pops will be more loyal
 		icon = 39
 	}
 	
 	communist_focus =
 	{
 		ideology = communist
-		loyalty_value = 0.001 # By that much pops will be more loyal
+		loyalty_value = 0.008 # By that much pops will be more loyal
 		icon = 40
 	}
 	
 	liberal_focus =
 	{
 		ideology = liberal
-		loyalty_value = 0.001 # By that much pops will be more loyal
+		loyalty_value = 0.008 # By that much pops will be more loyal
 		icon = 41
 	}
 	
 	anarcho_liberal_focus =
 	{
 		ideology = anarcho_liberal
-		loyalty_value = 0.001 # By that much pops will be more loyal
+		loyalty_value = 0.008 # By that much pops will be more loyal
 		icon = 42
 	}
 }
