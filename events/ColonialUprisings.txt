@@ -1547,6 +1547,60 @@ country_event = {
 	}
 }
 
+# Global baby boom
+country_event = {
+	id = 14681
+	title = "EVTNAME14680"
+	desc = "EVTDESC14680"
+	picture = "emigration"
+	
+	# PICTURE: http://en.wikipedia.org/wiki/File:Southern_Cross_-_call_to_British.jpg
+	
+	trigger = {
+		colonial_nation = yes
+		civilized = yes
+		invention = mission_to_civilize
+	}
+	
+	mean_time_to_happen = {	
+		months = 300
+		modifier = {
+			factor = 0.9
+			average_consciousness = 4
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 6
+		}
+		modifier = {
+			factor = 1.5
+			NOT = {
+				average_consciousness = 4
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA14680"
+	}
+	
+	option = {
+		name = "EVTOPTB14680"
+		random_state = {
+			any_owned = {
+				add_province_modifier = {
+					name = baby_plus
+					duration = 1825
+				}
+			}
+		}
+	}
+}
+
 # Loyal Colonials
 country_event = {
 	id = 14690
