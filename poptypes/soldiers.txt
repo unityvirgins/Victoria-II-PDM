@@ -1224,7 +1224,7 @@ promote_to =
 	}
 		craftsmen = 
 	{
-		factor = 0.01
+		factor = 0.06
 		modifier = {
 			factor = 40
 			location = {
@@ -1326,7 +1326,7 @@ promote_to =
 	 
 	
 	farmers = { #and labourers
-		factor = 0.01
+		factor = 0.06
 		modifier = {
 			factor = 2
 			not = { literacy = 0.10 }
