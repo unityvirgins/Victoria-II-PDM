@@ -577,7 +577,7 @@ boer_exodus = {
 
 gold_rush = {
 	global_immigrant_attract = 0.5
-	immigrant_attract = 10		#1000%
+	immigrant_attract = 5		#1000%
 	life_rating = 0.5
 	icon = 11
 }
